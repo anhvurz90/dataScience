@@ -38,3 +38,23 @@ UDEMY - WANT TO BE A DATA SCIENTIST?
     - No software skills taught
   }
 }
+2.About us: {
+  2.1.Abount V2 Maestros: {
+    - Committed to Big Data Science Education
+    - Build deployable Big data science skills through online training
+    - Our goal is to develop Data Science Practitioners who can deliver business results in commercial organizations
+    - Have significant industry expertise in Data Science Practice
+    - Connect with us:
+      + www.facebook.com/v2maestros
+      + https://www.linkedin.com/pub/v2-maestros/b6/1a/168
+      + Twitter: @V2Maestros
+  }
+  2.2.About the instructor: {
+    Kumaran Ponnambalam:
+    - Seasoned Data Science and Engineering Leader with a passion for teaching
+    - 22 years of software development experience
+    - Experience in Machine Learning, Big Data, Databases, Cloud and Project Management domains
+    - Experience teaching Data Science through online classes
+    - Blog: http://kumaranpm.blogspot.com
+  }
+}
