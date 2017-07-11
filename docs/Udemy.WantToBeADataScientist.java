@@ -58,3 +58,59 @@ UDEMY - WANT TO BE A DATA SCIENTIST?
     - Blog: http://kumaranpm.blogspot.com
   }
 }
+3.What is Data Science: {
+  3.1.Data Science: {
+    - Skill of extracting of knowledge from data
+    - Using knowledge to predict the unknown
+    - Improve business outcomes with the power of data
+    - Employ techniques and theories drawn from broad areas of mathematics, statistics and information technology
+  }
+  3.2.Data Scientist: {
+    - A practitioner of data science
+    - Expertise in data engineering, analytics, statistics and business domain
+    - Investigate complex business problems and 'use data' to provide solutions.
+  }
+  3.3.Data: {
+    3.3.1.Entity: {
+      - A thing that exists about which we research and predict in data science.
+      - Entity has a business context.
+      - Examples:
+        + 'Customer' of a business
+	+ 'Patient' at a hospital. The same person can be a patient and a customer, but the business context is different.
+	+ 'Car'. Entities can be non living things.
+    }
+    3.3.2.Characteristics: {
+      - Every entity has a set of characteristics. These are unique properties.
+      - Properies too have a business context.
+      - Examples: 
+	+ Customer: Age, income group, gender, education
+	+ Patient: Age, Blood Pressure, Weight, Family history.
+	+ Car: Make, Model, Year, Engine, VIN
+    }
+    3.3.3.Environment: {
+      - Environment points to the eco-system in which the entity exists or functions.
+      - Environment is shared among entities. Multiple entities belong to the same environment.
+      - Environment affects an entity's behavior
+      - Examples:
+	+ Customer: Country, City, Work Place
+	+ Patient: City, Climate
+	+ Car: Use (City/highway), Climate
+    }
+    3.3.4.Event: {
+      - A significant business activity in which an entity participates.
+      - Events happen in a said environment.
+      - Examples:
+	+ Customer: Browsing, store visit, sales call
+	+ Patient: Doctor visit, blood test
+	+ Car: Smog test, comparison test
+    }
+    3.3.5.Behavior: {
+      - What an entity does during an event
+      - Entities may have different behaviors in different environments
+      - Examples:
+	+ Customer: Phone Call vs email, Clickstream, response to offers
+	+ Patient: Nausea, light-headed, cramps
+	+ Car: Skid, acceleration, stopping distances
+    }
+  }
+}
