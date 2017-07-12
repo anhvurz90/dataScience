@@ -112,5 +112,57 @@ UDEMY - WANT TO BE A DATA SCIENTIST?
 	+ Patient: Nausea, light-headed, cramps
 	+ Car: Skid, acceleration, stopping distances
     }
+    3.3.6.Outcome: {
+      - The result of an activity deemed significant by the business
+      - Outcome values can be:
+	+ Boolean ( Yes/No, Pass/Fail)
+	+ Continuous ( a numeric value)
+	+ Class ( identification of type)
+      - Examples:
+	+ Customer: Sale ( boolean), sale vealue (continuous)
+	+ Patient: Blood Presure value (continuous). Diabetes type (class)
+ 	+ Car: Smog levels (class), stopping distances (continuous), smog passed (boolean), car type (class)
+    }
+    3.3.7.Observation: {
+      - A measurement of an event deemed significant by the business.
+      - Captures information about: 
+	+ Entities involved
+	+ Characteristics of the entities
+	+ Behavior
+	+ Environment in which the behavior happens
+	+ outcomes
+      - An observation is also called a system of record
+      - Examples:
+	+ Customer: A phone call record, a buying transaction, an email offer
+	+ Patient: A doctor visit record, a test result, a data capture from a monitoring device
+	+ Car: Service record, smog test result
+    }
+    3.3.8.Dataset: {
+      - A collection of observations
+      - Each observation is typically called a record
+      - Each record has a set of attributes that point to characteristics, behavior or outcomes.
+      - A dataset can be:
+	+ Structured (database records, spreadsheet)
+	+ Unstructured (twitter feeds, newspaper articles)
+	+ Semi-structured (email)
+      - Data scientists collect and work on datasets to learn about entities and predict their future behavior/ outcomes.
+    }
+    3.3.9.Structured Data: {
+      - Attributes are labeled and distinctly visible.
+      - Easily searchable and queryable.
+      - Stored easily in tables.
+    }
+    3.3.10.Unstructured Data: {
+      - Data is continuous text.
+      - Attributes are not distinctly labeled. They are present within the data.
+      - Querying is not easy.
+    }
+    3.3.11.Semi-structured Data: {
+      - Mix of structured and unstructured.
+      - Some attributes are distinctly labeled. Others are hidden within free text
+    }
+    3.3.12.Summary: {
+      - Entity, Characteristics, Environment, Event, Behavior, Outcomes, Observation, Dataset
+    }
   }
 }
